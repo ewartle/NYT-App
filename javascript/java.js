@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
  $("#searchButton").on("click", function(event) {
         
         event.preventDefault();
@@ -27,5 +29,11 @@
     $("#records").empty();
     $("#start").empty();
     $("#end").empty();
+    $("#articlelist").empty();
 
-        });
+  });
+
+
+  
+
+});
